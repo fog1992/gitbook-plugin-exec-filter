@@ -4,10 +4,15 @@ const trimNewlines = require('trim-newlines');
 
 module.exports = {
   filters: {
-    command: function(command) {
+    exec: function(command) {
       var output = execSync(command).toString();
-      output = trimNewlines(output);
-      return trim(output);
+      
+      for (var i = 0; i <= 3; i++) {
+        output = trimNewlines(output);
+        output = trim(output);
+      }
+      
+      return output;
     }
   }
 };

@@ -1,5 +1,5 @@
 {
-  "name": "gitbook-plugin-command-filter",
+  "name": "gitbook-plugin-exec-filter",
   "version": "0.0.1",
   "description": "Gitbook plugin to replace placeholder with command output.",
   "engines": {

@@ -9,6 +9,7 @@
     "properties": {}
   },
   "dependencies": {
-    "child_process": "latest"
+    "child_process": "latest",
+    "trim-whitespace": "latest"
   }
 }

@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "child_process": "latest",
-    "trim-whitespace": "latest"
+    "trim-whitespace": "latest",
+    "trim-newlines": "latest"
   }
 }

@@ -1,9 +1,9 @@
-var exec = require('exec');
+const execSync = require('child_process').execSync;
 
 module.exports = {
   filters: {
     command: function(command) {
-      return exec(command).output;
+      return execSync(command).toString();
     }
   }
 };

@@ -9,6 +9,6 @@
     "properties": {}
   },
   "dependencies": {
-    "exec": "latest"
+    "child_process": "latest"
   }
 }

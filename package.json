@@ -1,0 +1,11 @@
+{
+  "name": "gitbook-plugin-command-filter",
+  "version": "0.0.1",
+  "description": "Gitbook plugin to replace placeholder with command output.",
+  "engines": {
+    "gitbook": ">1.x.x"
+  },
+  "gitbook": {
+    "properties": {}
+  }
+}
